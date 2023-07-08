@@ -1,6 +1,6 @@
 <?php
 
-function generate_token($headers, $payload, $secret = 'secret_likit') {
+function generate_token($headers, $payload, $secret = 'A_S^/KPBu4P*S9$A}.M3K,MmkshAk6') {
 	$headers_encoded = base64url_encode(json_encode($headers));
 	
 	$payload_encoded = base64url_encode(json_encode($payload));
