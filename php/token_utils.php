@@ -13,7 +13,7 @@ function generate_token($headers, $payload, $secret = 'A_S^/KPBu4P*S9$A}.M3K,Mmk
 	return $jwt;
 }
 
-function is_token_valid($jwt, $secret = 'secret_likit') {
+function is_token_valid($jwt, $secret = 'A_S^/KPBu4P*S9$A}.M3K,MmkshAk6') {
 	$tokenParts = explode('.', $jwt);
 	$header = base64_decode($tokenParts[0]);
 	$payload = base64_decode($tokenParts[1]);
